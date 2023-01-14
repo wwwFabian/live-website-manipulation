@@ -62,3 +62,14 @@ console.log("ok");
 
 ## Das Ergebnis
 ![](plan_nachher.png)
+
+## Cool. Das will ich auch!
+
+Du bist auch Kunde bei diesem sonnigen Anbieter? Hier eine kurze Anleitung für diesen "Hack":
+
+1. Kopiere den "Bookmarklet"-Code ([s.o.](#die-lösung)) in die Zwischenablage. ![](howto_copy.png)
+2. Erstelle ein Lesezeichen und füge als Adresse den Code aus der Zwischenablage ein. ![](howto_create_bookmark.png)
+3. Fertig. Jetzt gehe zu unserem Anbieter, logge Dich ein und wähle den Plan, dessen Darstellung Du manipulieren
+   möchtest. Dann klickst Du auf das Lesezeichen.
+
+
