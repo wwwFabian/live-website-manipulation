@@ -8,11 +8,13 @@ Hierbei habe ich als Anwender diese Probleme:
 * Die Darstellung bricht zu früh ab, es fehlen wesentliche Informationen.
 * Die Gerichte sind schlecht leserlich durch lange Listen von Nährwerten und Zusatzstoffen.
 
-Es gibt eine Detailansicht, die ist aber nur für einzelne Tage verfügbar, ist ebenfalls unleserlich und bricht bei längeren Beschreibungen vor dem Nachtisch ab.
+Es gibt eine Detailansicht, die ist aber nur für einzelne Tage verfügbar, ist ebenfalls unleserlich und bricht bei
+längeren Beschreibungen vor dem Nachtisch ab.
 
 ## Wie kommen wir nun an eine lesbare Übersicht:
 
-Wie sich herausstellt, ist die Langfassung der Essenbeschreibung in den Zellen enthalten und kann also durch eine Anpassung des CSS sichtbar gemacht werden.
+Wie sich herausstellt, ist die Langfassung der Essenbeschreibung in den Zellen enthalten und kann also durch eine
+Anpassung des CSS sichtbar gemacht werden.
 ```javascript
 let c = document.querySelectorAll(".order-menu-node-name");
 for (let i = 0; i < c.length; i++) {
